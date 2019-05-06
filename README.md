@@ -6,15 +6,15 @@ This ETL Pipeline was designed for a startup **Sparkify**, who wants to analyze 
 ### Files in Project
 Tha main files for running the project are:
 
-**create_tables.py** - Script to create and drop tables.
+* `create_tables.py`: Script to create and drop tables.
 
-**sql_queries.py** - Script with the queries and scripts to use in create_tables.py and etl.py.
+* `sql_queries.py`: Script with the queries and scripts to use in create_tables.py and etl.py.
 
-**etl.py** - Script with the detail for transforming the original data from json tables to Postgres tables.
+* `etl.py`: Script with the detail for transforming the original data from json tables to Postgres tables.
 
-**etl.ipynb** - Notebook with the step by step of the process.
+* `etl.ipynb`: Notebook with the step by step of the process.
 
-**test.ipynb** - Notebook that test that the tables are created and fill with the data from the etl process.
+* `test.ipynb`: Notebook that test that the tables are created and fill with the data from the etl process.
 
 ### Schema for Song Play Analysis
 Fact and dimension tables were defined for a star schema for analytics purposes.
